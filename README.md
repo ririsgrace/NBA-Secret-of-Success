@@ -1,5 +1,5 @@
-<img width="200" alt="nba logo" src="https://github.com/ririsgrace/NBA-Secret-of-Success/assets/144182572/30ff050a-675f-4e34-a493-eab7397969c7">
 
+![vecteezy_nba-logo-on-transparent-background_15863585](https://github.com/ririsgrace/NBA-Secret-of-Success/assets/144182572/a9e6b998-65f5-48dc-b5f4-bcb186b442e6)
 # NBA-Secret-of-Success
 
 The NBA Data Playbook: Unraveling the Secrets of Success
