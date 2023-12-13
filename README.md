@@ -47,5 +47,9 @@ https://runrepeat.com/nba-revenue-statistics
 Find the link here: https://public.tableau.com/app/profile/bennett.blanco8002/viz/nba-player-valuator-generic/NBAPlayerValuations?publish=yes
 
 <img width="1086" alt="Screenshot 2023-12-12 at 10 30 03 PM" src="https://github.com/ririsgrace/NBA-Secret-of-Success/assets/144182572/d13019e0-c6c2-46df-95f3-883995dac936">
+<br/>
+<br/>
 <img width="1181" alt="Screenshot 2023-12-12 at 10 30 24 PM" src="https://github.com/ririsgrace/NBA-Secret-of-Success/assets/144182572/4ef343de-1e34-4b95-a590-478e9f241f82">
+<br/>
+<br/>
 <img width="1180" alt="Screenshot 2023-12-12 at 10 30 45 PM" src="https://github.com/ririsgrace/NBA-Secret-of-Success/assets/144182572/ff1f4b41-ccb3-4bdc-b0f0-baa3a2c3a51a">
