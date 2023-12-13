@@ -1,8 +1,6 @@
+# The NBA Data Playbook: Unraveling the Secrets of Success
+
 <img width="200" alt="Screenshot 2023-12-12 at 10 43 56 PM" src="https://github.com/ririsgrace/NBA-Secret-of-Success/assets/144182572/232a9df1-0553-40a4-865a-681cad510729">
-
-# NBA-Secret-of-Success
-
-The NBA Data Playbook: Unraveling the Secrets of Success
 
 Team Members: Ali Saadeddine, Bennett Blanco, Riris Grace, Saumya Anand, Sulaiman Alhomoud, Ya Chu Hsu
 
