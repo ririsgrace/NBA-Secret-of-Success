@@ -41,20 +41,3 @@ https://www.kaggle.com/datasets/patrickhallila1994/nba-data-from-basketball-refe
 *  Financial data web-scraped from
 https://runrepeat.com/nba-revenue-statistics
 * so far ununsed --> https://www.spotrac.com/nba/
-
->%%bigquery --project= teamb09
-SELECT
-  pgs.Player, pgs.Team, pgs.Season, pi.pos,
-  ROUND(pgs.PPG - AVG(pgs.PPG) OVER(PARTITION BY pgs.Season), 1) AS Relative_PPG,
-  ROUND(pgs.APG - AVG(pgs.APG) OVER(PARTITION BY pgs.Season), 1) AS Relative_APG,
-  ROUND(pgs.RPG - AVG(pgs.RPG) OVER(PARTITION BY pgs.Season), 1) AS Relative_RPG,
-  ROUND(pgs.SPG - AVG(pgs.SPG) OVER(PARTITION BY pgs.Season), 1) AS Relative_SPG,
-  ROUND(pgs.BPG - AVG(pgs.BPG) OVER(PARTITION BY pgs.Season), 1) AS Relative_BPG,
-  ROUND(pgs.TPG - AVG(pgs.TPG) OVER(PARTITION BY pgs.Season), 1) AS Relative_TPG,
-  ROUND(pgs.PPG - AVG(pgs.PPG) OVER(PARTITION BY pgs.Season), 1) AS Relative_PPG,
-  ROUND(pgs.FGP - AVG(pgs.FGP) OVER(PARTITION BY pgs.Season), 1) AS Relative_FGP,
-  ROUND(pgs.FTP - AVG(pgs.FTP) OVER(PARTITION BY pgs.Season), 1) AS Relative_FTP,
-  ROUND(pgs.ThreePP - AVG(pgs.ThreePP) OVER(PARTITION BY pgs.Season), 1) AS Relative_ThreePP
-FROM `teamb09.kaggle.per_game_stats` AS pgs
-LEFT JOIN `teamb09.kaggle.player_info_cleaned` AS pi
-ON pgs.Player = pi.player_name;
